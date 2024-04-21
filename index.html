@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syllabus</title>
+    <!-- Link Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Style for navigation bar */
+        nav {
+            background-color: darkgreen;
+            overflow: hidden;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        nav li {
+            float: left;
+        }
+
+        nav li a {
+            display: block;
+            color: beige;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        nav li a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+
+        /* Style for images */
+        .img-fluid {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation bar -->
+    <nav>
+        <ul>
+            <li><a href="index.html">Syllabus</a></li>
+            <li><a href="AML.html">AML</a></li>
+            <li><a href="ToC.html">TOC</a></li>
+        </ul>
+    </nav>
+
+    <!-- Introduction -->
+    <div class="container mt-4">
+        <h1 class="text-center">Introduction to Advanced Machine Learning and Theory of Computation</h1>
+    </div>
+
+    <!-- Bootstrap grid layout -->
+    <div class="container mt-4">
+        <div class="row">
+            <div class="col-md-6">
+                <!-- Left column content with image -->
+                <a href="AML.html" class="card text-center h-100">
+                    <img src="AML.jpg" class="card-img-top" alt="Left Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Introduction to Machine Learning</h5>
+                        <p class="card-text">Explore!</p>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-6">
+                <!-- Right column content with image -->
+                <a href="ToC.html" class="card text-center h-100">
+                    <img src="TOC.png" class="card-img-top" alt="Main Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Introduction to Theory of Computation</h5>
+                        <p class="card-text">Explore!</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Link Bootstrap JS (optional) -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
